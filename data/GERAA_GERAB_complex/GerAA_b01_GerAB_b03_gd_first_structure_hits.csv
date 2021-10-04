@@ -1,0 +1,3 @@
+alignment_id,pdb_id,pdb_chain,uniprot_ac,uniprot_id,alignment_start,alignment_end,bitscore,e_value,resseq_start,resseq_end,coord_start,coord_end,uniprot_start,uniprot_end,uniprot_id_,overlap,mapping_index,grouped_segments
+evtr|O07504|O07504_BACME/125-507,6o59,A,O07504,O07504_BACME,125,507,337.2,3.2999999999999995e-100,2,272,26,296,26,296,O07504_BACME,155,0,True
+evtr|O07504|O07504_BACME/125-507,6o59,B,O07504,O07504_BACME,125,507,337.2,3.2999999999999995e-100,147,272,171,296,171,296,O07504_BACME,126,1,False

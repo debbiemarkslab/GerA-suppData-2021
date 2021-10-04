@@ -1,0 +1,2 @@
+prefix,minimum_column_coverage,num_seqs,seqlen,num_cov,num_lc,perc_cov,1st_uc,last_uc,len_cov,num_lc_cov,N_eff
+GERAA_BACSU_full/GERAA_BACSU_full_b01/align/GERAA_BACSU_full_b01,0.700,23876,482,462,20,0.959,10,472,463,1,6632.792
