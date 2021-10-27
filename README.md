@@ -51,6 +51,12 @@ GERAA
 Descriptions are equivalent to the files in GERAB, but running GERAA_BACSU instead.
 
 GERAA_GERAB_complex
+GerAA_b01_GerAB_b03_gd_CouplingScoresCompared_all.csv: A list of EVcouplings scores for all available pairs of residues, both within either GerAA or GerAB (intra-ECs) or between GerAA and GerAB (inter-ECs).
+GerAA_b01_GerAB_b03_gd_CouplingScoresCompared_longrange.csv: A list of both intra- and inter-EC scores, but omitting any intra-ECs for residues that are within 5 amino acids of each other
+GerAA_b01_GerAB_b03_gd_CouplingScoresCompared_inter.csv: The list of EVcouplings scores for just the inter-ECs (in other words, only includes scores for all possible pairs between GerAA and GerAB)
+GerAA_b01_GerAB_b03_gd_first_distance_map_monomer.npy and GerAA_b01_GerAB_b03_gd_first_distance_map_monomer.csv: Two files that contain distance information from the known monomer structures of GerAA; used to calculate the blue dots in contact maps featuring GerAA.
+GerAA_b01_GerAB_b03_gd_first_distance_map_multimer.npy and GerAA_b01_GerAB_b03_gd_first_distance_map_multimer.csv: Two files that contain distance information from the known possible homomultimer structures of GerAA (specifically taken from PDB structures where multiple chains corresponded to GerAA); used to calculate the orange dots in monomer contact maps featuring GerAA.
+GerAA_b01_GerAB_b03_gd_first_structure_hits.csv: The list of PDB structures used to create monomeric and homomultimeric contacts for GerAA.
 
 
 structures
@@ -61,3 +67,5 @@ notebooks/:
 notebooks/recreating_contact_map_figures.ipynb: A jupyter notebook that uses the files in this repo to recreate paper figures Fig. 1a, Supp. Fig. 1a, and Supp. Fig. 12a.
 notebooks/recreating_contact_map_figures.html: An export of the above notebook to allow for easier viewing.
 
+Additional notes:
+The zipped datasets for running the complex pipeline (the ENA tables etc) can be found at doi:10.6084/m9.figshare.16873912
